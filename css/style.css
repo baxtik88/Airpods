@@ -1,0 +1,232 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    padding: 6px 248px 6px 245px;
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 1114px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.nav__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu__list {
+    font-family: 'MontsB';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu__link {
+    color: white;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.official-site {
+    padding: 204px 0 286px;
+    background: url(../img/bg.png);
+    background-size: cover;
+}
+
+.official-site__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.off-site-h {
+    font-family: 'OneR';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    color: white;
+    text-align: center;
+}
+
+.off-site-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 13px 11px 13px 14px;
+    margin-top: 38px;
+}
+
+.off-site-desc-p {
+    font-family: 'MontsM';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #171718;
+    margin-right: 11px;
+}
+
+.off-site-desc-img {
+    margin-right: 14px;
+}
+
+.Airpods {
+    padding: 30px 0 55px;
+    background: #151515;
+    color: white;
+
+}
+
+.airpods__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.airpods {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.airpods__p {
+    font-family: 'MontsM';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.airpods-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+
+.airpods-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    margin-bottom: 79px;
+}
+
+.airpods-white__p {
+    font-family: 'MontsB';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.iphone {
+    background: #151515;
+
+}
+
+.iphone__wrap {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 15px 58px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.iphone__h {
+    font-family: 'MontsB';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.iphone__p {
+    margin: 10px 0 20px;
+    font-family: 'MontsR';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.card__btn {
+    color: white;
+    background: #151515;
+    padding: 7px 57px;
+}
+
+.footer {
+background: #282828;
+box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+padding: 81px 245px;
+}
+
+.footer__wrap {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+   
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;  
+}
+
+.menu__footer {
+    display: flex;
+    align-items: center;
+}
